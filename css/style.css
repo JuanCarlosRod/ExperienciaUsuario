@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.rojo {
+    color: red;
+
+}
+
+.errorInput {
+    border: 2px solid red;
+}
+
+.validoInput {
+    border: 2px solid greenyellow;
+}
+
